@@ -1,0 +1,7 @@
+.header {
+  background-image: url("header-liquid.svg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
