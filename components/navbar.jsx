@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const { default: ArrowDown } = require("../shared/icons/arrow-down-line.svg");
 const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
+const { default: MoneyPoundCircle } = require("../shared/icons/money-pound-circle-line.svg");
 const { default: FileList } = require("../shared/icons/file-list-line.svg");
 const { default: Phone } = require("../shared/icons/phone-line.svg");
 
@@ -70,6 +71,33 @@ const Navbar = () => {
             <div className="flex flex-col gap-0 w-auto">
               <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Documentation
+              </p>
+              <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+                Welcome to our "Documentations" hub – your go-to resource for
+                unlocking the full potential of your landing page creation
+                journey.
+              </p>
+            </div>
+          </Link>
+          <Link
+            href="/"
+            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+          >
+            <Image
+              className="hidden lg:flex"
+              src={MoneyPoundCircle}
+              width="16"
+              height="16"
+            />
+            <Image
+              className="flex lg:hidden"
+              src={MoneyPoundCircle}
+              width="20"
+              height="20"
+            />
+            <div className="flex flex-col gap-0 w-auto">
+              <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+                Pricing
               </p>
               <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Welcome to our "Documentations" hub – your go-to resource for
