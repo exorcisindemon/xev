@@ -4,9 +4,6 @@ import css from "../shared/header/header.module.css";
 const {
   default: GitPullRequest,
 } = require("../shared/icons/git-pull-request-line.svg");
-const { default: Apple } = require("../shared/icons/apple-circle.svg");
-const { default: GitHub } = require("../shared/icons/github-circle.svg");
-const { default: Instagram } = require("../shared/icons/instagram-circle.svg");
 
 const Hero = () => {
   return (
@@ -30,26 +27,6 @@ const Hero = () => {
         business owner, startup, or just want to showcase something awesome, XEV
         has got your back.
       </h2>
-      <div className="flex flex-row gap-4 items-center w-full lg:w-auto mt-16">
-        <button className="transition-all bg-stone-600/20 hover:bg-stone-600/40 ring-1 ring-stone-600 flex flex-row gap-2 items-center w-fit px-4 py-2 mt-0 rounded-full">
-          <Image src={Apple} width="16" height="16" />
-          <p className="text-stone-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
-          Apple
-        </p>
-        </button>
-        <button className="transition-all bg-slate-600/20 hover:bg-slate-600/40 ring-1 ring-slate-600 flex flex-row gap-2 items-center w-fit px-4 py-2 mt-0 rounded-full">
-          <Image src={GitHub} width="16" height="16" />
-          <p className="text-slate-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
-          GitHub
-        </p>
-        </button>
-        <button className="transition-all bg-red-600/20 hover:bg-red-600/40 ring-1 ring-red-600 flex flex-row gap-2 items-center w-fit px-4 py-2 mt-0 rounded-full">
-          <Image src={Instagram} width="16" height="16" />
-          <p className="text-red-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
-          Instagram
-        </p>
-        </button>
-      </div>
     </header>
   );
 };
