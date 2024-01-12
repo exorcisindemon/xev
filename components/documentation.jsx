@@ -1,8 +1,10 @@
-import React from "react";
+import css from "../shared/documentation/documentation.module.css"
 
 const Documentation = () => {
   return (
-    <main className="flex flex-col lg:grid lg:grid-cols-4 w-full h-auto lg:h-[480px] items-center justify-center gap-8 lg:gap-16 p-6 lg:p-16">
+    <main
+      className={`${css.documentation} flex flex-col lg:grid lg:grid-cols-4 w-full h-auto lg:h-[480px] items-center justify-center gap-8 lg:gap-16 p-6 lg:p-16`}
+    >
       <div className="flex flex-col w-full">
         <p className="text-black text-2xl font-semibold tracking-tight w-full text-start mt-0">
           Documentation
