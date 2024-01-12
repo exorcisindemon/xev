@@ -11,8 +11,10 @@ const Hero = () => {
     >
       <button className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-row gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
         <Image src={GitPullRequest} width="16" height="16" />
-        <p className="text-green-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
-          Updates released • See what's happening
+        <p className="flex flex-col lg:flex-row text-green-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
+          <span>Updates released</span>
+          <span className="hidden lg:flex">•</span>
+          <span>See what's happening</span>
         </p>
       </button>
       <p className="text-white text-4xl font-semibold tracking-tight w-full text-start lg:text-center mt-16">

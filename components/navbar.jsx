@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,14 +16,24 @@ const Navbar = () => {
     setExpandNavbar(!expandNavbar);
   };
 
+  useEffect(() => {
+    const handlerBreakpoint = window.innerWidth <= 765;
+    setExpandNavbar(!handlerBreakpoint);
+  }, []);
+
   return (
-    <nav className="flex flex-col lg:flex-row gap-4 lg:gap-0 items-center justify-between w-full p-6">
-      <Link
-        href="/"
-        className="transition-all bg-transparent lg:hover:bg-black/10 px-4 py-2 lg:rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-4 lg:gap-2"
-      >
+    <nav className="flex flex-col lg:flex-row gap-4 items-center justify-center w-full p-6">
+      <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
+        <Link
+          href="/"
+          className="transition-all bg-transparent lg:hover:bg-black/10 px-4 py-2 lg:rounded-lg flex flex-row items-center justify-between w-auto gap-4 lg:gap-2"
+        >
+          <p className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+            XEV
+          </p>
+        </Link>
         <button
-          className="flex flex-row items-center justify-center lg:hidden w-auto gap-2 bg-black/10 px-6 py-2 rounded-full"
+          className="flex flex-row items-center justify-center lg:hidden w-auto gap-2 bg-black/10 px-4 py-2 rounded-lg"
           onClick={handlerNavbar}
         >
           <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-auto text-center mt-0">
@@ -38,15 +48,12 @@ const Navbar = () => {
             height="20"
           />
         </button>
-        <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-          XEV
-        </p>
-      </Link>
+      </div>
       {expandNavbar && (
         <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-4 lg:gap-2"
+            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
@@ -73,7 +80,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-4 lg:gap-2"
+            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
@@ -99,7 +106,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-4 lg:gap-2"
+            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
@@ -119,7 +126,7 @@ const Navbar = () => {
               </p>
               <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Whether you have inquiries, partnership proposals, or just want
-                to say hello, this is the space where connections are forged.
+                to say hello. The space where connections are forged.
               </p>
             </div>
           </Link>
