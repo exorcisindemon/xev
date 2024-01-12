@@ -17,7 +17,7 @@ const Hero = () => {
           <span className="font-bold">03d30f</span>
         </p>
       </button>
-      <h1 className="text-white text-4xl font-semibold tracking-tight w-full text-start lg:text-center mt-16">
+      <h1 className="text-white text-4xl font-semibold tracking-tight w-full lg:w-[480px] text-start lg:text-center mt-16">
         Introducing, <span className="text-blue-400">XEV</span> – Your Easy
         Landing Page Builder!
       </h1>
