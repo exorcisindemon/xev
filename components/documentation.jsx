@@ -14,30 +14,30 @@ const Documentation = () => {
         </p>
       </div>
       <div className="flex flex-col w-full h-full p-4 border">
-        <p className="text-black text-lg font-medium tracking-tight w-full text-start mt-0">
+        <p className="text-black text-lg font-semibold tracking-tight w-full text-start mt-0">
           Documentation
         </p>
-        <p className="text-black/80 text-sm font-regular tracking-tight w-full text-start mt-4 lg:mt-8">
+        <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-4 lg:mt-8">
           Welcome to our &rsquo;Documentations&rsquo; hub – your go-to resource
           for unlocking the full potential of your landing page creation
           journey.
         </p>
       </div>
       <div className="flex flex-col w-full h-full p-4 border">
-        <p className="text-black text-lg font-medium tracking-tight w-full text-start mt-0">
+        <p className="text-black text-lg font-semibold tracking-tight w-full text-start mt-0">
           Documentation
         </p>
-        <p className="text-black/80 text-sm font-regular tracking-tight w-full text-start mt-4 lg:mt-8">
+        <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-4 lg:mt-8">
           Welcome to our &rsquo;Documentations&rsquo; hub – your go-to resource
           for unlocking the full potential of your landing page creation
           journey.
         </p>
       </div>
       <div className="flex flex-col w-full h-full p-4 border">
-        <p className="text-black text-lg font-medium tracking-tight w-full text-start mt-0">
+        <p className="text-black text-lg font-semibold tracking-tight w-full text-start mt-0">
           Documentation
         </p>
-        <p className="text-black/80 text-sm font-regular tracking-tight w-full text-start mt-4 lg:mt-8">
+        <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-4 lg:mt-8">
           Welcome to our &rsquo;Documentations&rsquo; hub – your go-to resource
           for unlocking the full potential of your landing page creation
           journey.
