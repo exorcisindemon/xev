@@ -1,5 +1,5 @@
 const ScreenLayout = ({ children }) => {
-  return <div>{children}</div>;
+  return <>{children}</>;
 };
 
 export default ScreenLayout;
