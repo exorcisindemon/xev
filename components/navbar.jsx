@@ -14,6 +14,7 @@ const { default: Phone } = require("../shared/icons/phone-line.svg");
 
 const Navbar = () => {
   const [expandNavbar, setExpandNavbar] = useState(false);
+  const [invertedColor, setInvertedColor] = useState("text-black");
 
   const handlerNavbar = () => {
     setExpandNavbar(!expandNavbar);
@@ -24,8 +25,31 @@ const Navbar = () => {
     setExpandNavbar(!handlerBreakpoint);
   }, []);
 
+  useEffect(() => {
+    const handlerInverted = () => {
+      const scrollY = window.scrollY;
+      const scrollThreshold = 100;
+
+      if (scrollY > scrollThreshold) {
+        setInvertedColor("");
+      } else {
+        setInvertedColor("");
+      }
+    };
+
+    window.addEventListener("scroll", handlerInverted);
+
+    return () => {
+      window.removeEventListener("scroll", handlerInverted);
+    };
+  }, []);
+
   return (
-    <nav className="flex flex-col lg:flex-row gap-4 items-center justify-center w-full p-6">
+    <nav
+      className={`${
+        expandNavbar ? "h-screen lg:h-auto" : "h-auto"
+      } ${invertedColor} flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-6`}
+    >
       <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
         <Link
           href="/"
@@ -52,11 +76,13 @@ const Navbar = () => {
           />
         </button>
       </div>
-      <div className="hidden lg:flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
-        <label className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-          |
-        </label>
-      </div>
+      {expandNavbar && (
+        <div className="hidden lg:flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
+          <label className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+            |
+          </label>
+        </div>
+      )}
       {expandNavbar && (
         <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
           <Link
@@ -80,9 +106,9 @@ const Navbar = () => {
                 Documentation
               </p>
               <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-                Welcome to our "Documentations" hub – your go-to resource for
-                unlocking the full potential of your landing page creation
-                journey.
+                Welcome to our &rsquo;Documentations&rsquo; hub – your go-to
+                resource for unlocking the full potential of your landing page
+                creation journey.
               </p>
             </div>
           </Link>
@@ -107,9 +133,8 @@ const Navbar = () => {
                 Pricing
               </p>
               <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-                Welcome to our "Documentations" hub – your go-to resource for
-                unlocking the full potential of your landing page creation
-                journey.
+                Each tier is crafted to deliver maximum value. No hidden fees,
+                no surprises – just transparent and flexible pricing.
               </p>
             </div>
           </Link>
