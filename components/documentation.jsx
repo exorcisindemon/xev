@@ -13,7 +13,7 @@ const Documentation = () => {
           journey.
         </p>
       </div>
-      <div className="flex flex-col w-full h-full p-8 border">
+      <div className="flex flex-col w-full h-full p-4 border">
         <p className="text-black text-2xl font-medium tracking-tight w-full text-start mt-0">
           Documentation
         </p>
@@ -23,7 +23,7 @@ const Documentation = () => {
           journey.
         </p>
       </div>
-      <div className="flex flex-col w-full h-full p-8 border">
+      <div className="flex flex-col w-full h-full p-4 border">
         <p className="text-black text-2xl font-medium tracking-tight w-full text-start mt-0">
           Documentation
         </p>
@@ -33,7 +33,7 @@ const Documentation = () => {
           journey.
         </p>
       </div>
-      <div className="flex flex-col w-full h-full p-8 border">
+      <div className="flex flex-col w-full h-full p-4 border">
         <p className="text-black text-2xl font-medium tracking-tight w-full text-start mt-0">
           Documentation
         </p>
