@@ -40,12 +40,10 @@ const Navbar = () => {
           </p>
         </Link>
         <button
-          className="flex flex-row items-center justify-center lg:hidden w-auto gap-2 bg-black/10 px-4 py-2 rounded-lg"
+          className="transition-all bg-black/10 ring-1 ring-black/40 flex flex-row items-center justify-center lg:hidden w-auto gap-2 p-2 rounded-lg"
           onClick={handlerNavbar}
         >
-          <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-auto text-center mt-0">
-            {expandNavbar ? "Collapse" : "Expand"}
-          </p>
+          
           <Image
             className={`${
               expandNavbar ? "rotate-180" : "rotate-0"
