@@ -6,7 +6,9 @@ import Link from "next/link";
 
 const { default: ArrowDown } = require("../shared/icons/arrow-down-line.svg");
 const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
-const { default: MoneyPoundCircle } = require("../shared/icons/money-pound-circle-line.svg");
+const {
+  default: MoneyPoundCircle,
+} = require("../shared/icons/money-pound-circle-line.svg");
 const { default: FileList } = require("../shared/icons/file-list-line.svg");
 const { default: Phone } = require("../shared/icons/phone-line.svg");
 
@@ -49,6 +51,11 @@ const Navbar = () => {
             height="20"
           />
         </button>
+      </div>
+      <div className="hidden lg:flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
+        <label className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+          |
+        </label>
       </div>
       {expandNavbar && (
         <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
