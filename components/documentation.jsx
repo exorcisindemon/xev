@@ -22,7 +22,7 @@ const Documentation = () => {
           journey.
         </p>
       </div>
-      <div className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-col w-full h-full justify-center p-4">
+      <div className="transition-all bg-green-600/20 hover:bg-green-600/40 lg:hover:backdrop-blur-lg ring-1 ring-green-600 flex flex-col w-full h-full justify-center p-4">
         <p className="text-green-800 text-lg lg:text-2xl font-semibold tracking-tight w-full text-start mt-0">
           Getting Started
         </p>
@@ -30,7 +30,7 @@ const Documentation = () => {
           &undefined
         </p>
       </div>
-      <div className="transition-all bg-amber-600/20 hover:bg-amber-600/40 ring-1 ring-amber-600 flex flex-col w-full h-full justify-center p-4">
+      <div className="transition-all bg-amber-600/20 hover:bg-amber-600/40 lg:hover:backdrop-blur-lg ring-1 ring-amber-600 flex flex-col w-full h-full justify-center p-4">
         <p className="text-amber-800 text-lg lg:text-2xl font-semibold tracking-tight w-full text-start mt-0">
           Knowing Specification
         </p>
