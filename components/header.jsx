@@ -19,7 +19,7 @@ const Hero = () => {
       </button>
       <h1 className="text-white text-4xl font-semibold tracking-tight w-full lg:w-[480px] text-start lg:text-center mt-16">
         Introducing, <span className="text-blue-400">XEV</span> – Your Easy
-        Landing Page Builder!
+        Landing Page Crafter!
       </h1>
       <h2 className="text-white/80 text-lg font-medium tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-8">
         Creating a stunning landing page has never been this simple. At XEV,
