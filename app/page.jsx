@@ -6,9 +6,9 @@ const { default: Header } = require("../components/header");
 export default function App() {
   return (
     <ScreenLayout>
-      <Header />
-      <Header />
-      <Header />
+      <div className="relative top-auto lg:top-[92px]">
+        <Header />
+      </div>
     </ScreenLayout>
   );
 }

@@ -14,7 +14,6 @@ const { default: Phone } = require("../shared/icons/phone-line.svg");
 
 const Navbar = () => {
   const [expandNavbar, setExpandNavbar] = useState(false);
-  const [invertedColor, setInvertedColor] = useState("text-black");
 
   const handlerNavbar = () => {
     setExpandNavbar(!expandNavbar);
@@ -25,30 +24,11 @@ const Navbar = () => {
     setExpandNavbar(!handlerBreakpoint);
   }, []);
 
-  useEffect(() => {
-    const handlerInverted = () => {
-      const scrollY = window.scrollY;
-      const scrollThreshold = 100;
-
-      if (scrollY > scrollThreshold) {
-        setInvertedColor("");
-      } else {
-        setInvertedColor("");
-      }
-    };
-
-    window.addEventListener("scroll", handlerInverted);
-
-    return () => {
-      window.removeEventListener("scroll", handlerInverted);
-    };
-  }, []);
-
   return (
     <nav
       className={`${
         expandNavbar ? "h-screen lg:h-auto" : "h-auto"
-      } ${invertedColor} flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-6`}
+      } bg-white flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-6`}
     >
       <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
         <Link
