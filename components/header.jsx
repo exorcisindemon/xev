@@ -7,7 +7,7 @@ const {
 const Hero = () => {
   return (
     <header
-      className={`${css.header} flex flex-col w-full h-screen lg:h-[720px] items-center justify-center p-8 lg:p-16`}
+      className={`${css.header} flex flex-col w-full h-screen lg:h-[720px] items-center justify-center p-6 lg:p-16`}
     >
       <button className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-row gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
         <Image src={GitPullRequest} width="16" height="16" />
