@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav
+    <main
       className={`${
         expandNavbar ? "h-screen lg:h-auto" : "h-auto"
       } bg-white flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-6`}
@@ -172,7 +172,7 @@ const Navbar = () => {
           </Link>
         </div>
       )}
-    </nav>
+    </main>
   );
 };
 
