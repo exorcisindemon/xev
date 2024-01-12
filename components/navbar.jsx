@@ -33,7 +33,7 @@ const Navbar = () => {
       <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
         <Link
           href="/"
-          className="transition-all bg-transparent lg:hover:bg-black/10 px-4 py-2 lg:rounded-lg flex flex-row items-center justify-between w-auto gap-4 lg:gap-2"
+          className="transition-all bg-transparent lg:hover:bg-black/20 hover:ring-1 hover:ring-black/40 px-4 py-2 lg:rounded-lg flex flex-row items-center justify-between w-auto gap-4 lg:gap-2"
         >
           <p className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
             XEV
@@ -67,7 +67,7 @@ const Navbar = () => {
         <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
@@ -94,7 +94,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
@@ -120,7 +120,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
@@ -146,7 +146,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/"
-            className="transition-all bg-transparent hover:bg-black/10 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 px-4 py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
               className="hidden lg:flex"
