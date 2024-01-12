@@ -22,7 +22,7 @@ const Hero = () => {
       </p>
       <p className="text-white/80 text-lg font-medium tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-8">
         Creating a stunning landing page has never been this simple. At XEV,
-        we're all about making things easy for you. Whether you're a business
+        we&rsquo;re all about making things easy for you. Whether you&rsquo;re a business
         owner, startup, or just want to showcase something awesome, XEV has got
         your back.
       </p>
