@@ -6,7 +6,7 @@ const { default: Navbar } = require("../components/navbar");
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Introducing, XEV – Your Easy Landing Page Crafter!",
+  title: "Introducing, XEV – Your Web & Components Crafter!",
   description: "@exorcisindemon",
 };
 
