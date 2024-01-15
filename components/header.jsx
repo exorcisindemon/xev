@@ -1,5 +1,5 @@
 import Image from "next/image";
-import css from "../shared/css/landing/control.module.css"
+import css from "../shared/css/landing/control.module.css";
 
 const { default: Command } = require("../shared/icons/command-line.svg");
 const { default: ThumbUp } = require("../shared/icons/thumb-up-line.svg");
@@ -32,7 +32,7 @@ const Hero = () => {
         Meet XEV, your ultimate companion in the world of React.js web
         development. Whether you&rsquo;re a seasoned developer or just diving
         into the realm of front-end design, XEV is here to simplify and amplify
-        your creative journey. We're excited to share that the components on
+        your creative journey. I&rsquo;m excited to share that the components on
         this website are meticulously crafted using Tailwind CSS.
       </h2>
     </main>

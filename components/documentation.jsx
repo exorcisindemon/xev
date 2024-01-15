@@ -68,7 +68,7 @@ const Documentation = () => {
               Getting Started
             </p>
             <p className="text-white/80 text-sm font-medium tracking-tight w-full text-start mt-0">
-              Welcome aboard the XEV journey! Whether you're a seasoned
+              Welcome aboard the XEV journey! Whether you&rsquo;re a seasoned
               developer or a curious beginner, diving into the world of XEV is
               your gateway to efficient and creative React.js web development.
             </p>
@@ -89,7 +89,7 @@ const Documentation = () => {
               XEV is built around the principles of component-driven
               development. Understand the fundamentals of React.js component
               architecture, where UI elements are modular and reusable. Leverage
-              XEV's extensive library of pre-designed components or create your
+              XEV&rsquo;s extensive library of pre-designed components or create your
               own to build scalable and maintainable user interfaces.
             </p>
           </div>
