@@ -6,10 +6,11 @@ import Link from "next/link";
 
 const { default: ArrowDown } = require("../shared/icons/arrow-down-line.svg");
 const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
+const { default: Layout } = require("../shared/icons/layout-line.svg");
+const { default: Function } = require("../shared/icons/function-line.svg");
 const {
   default: MoneyPoundCircle,
 } = require("../shared/icons/money-pound-circle-line.svg");
-const { default: FileList } = require("../shared/icons/file-list-line.svg");
 const { default: Phone } = require("../shared/icons/phone-line.svg");
 
 const Navbar = () => {
@@ -95,13 +96,13 @@ const Navbar = () => {
           >
             <Image
               className="hidden lg:flex"
-              src={FileList}
+              src={Layout}
               width="16"
               height="16"
             />
             <Image
               className="flex lg:hidden"
-              src={FileList}
+              src={Layout}
               width="20"
               height="20"
             />
@@ -122,13 +123,13 @@ const Navbar = () => {
           >
             <Image
               className="hidden lg:flex"
-              src={FileList}
+              src={Function}
               width="16"
               height="16"
             />
             <Image
               className="flex lg:hidden"
-              src={FileList}
+              src={Function}
               width="20"
               height="20"
             />
