@@ -40,7 +40,7 @@ const Navbar = () => {
             XEV
           </p>
           <p className="text-black/80 text-xs lg:text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-            Mathilda Version
+            Mathilda Build
           </p>
         </Link>
         <button
