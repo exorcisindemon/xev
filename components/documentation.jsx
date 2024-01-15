@@ -35,13 +35,23 @@ const Documentation = () => {
         </p>
       </div>
       <div className="flex flex-col lg:grid lg:grid-cols-4 gap-8 lg:gap-16 items-center w-full h-full">
-        <div className="transition-all bg-white/60 lg:hover:bg-green-400/60 ring-1 ring-green-600 lg:ring-black/20 hover:lg:ring-green-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
+        <div className="transition-all bg-white/60 lg:hover:bg-green-400/60 hover:backdrop-blur-lg ring-1 ring-green-600 lg:ring-black/20 hover:lg:ring-green-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
           <div className="flex flex-col items-start gap-4">
             <p className="text-black text-lg font-semibold tracking-tight w-full text-start mt-0">
               Introduction
             </p>
             <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-0">
-              &undefined
+              XEV empowers developers and designers alike to unleash their
+              creativity, offering an intuitive and flexible environment for
+              building exquisite user interfaces. From dynamic single-page
+              applications to modular components, XEV redefines the art of web
+              development.
+            </p>
+            <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-0">
+              Bid farewell to the complexities of traditional development
+              processes. XEV streamlines your workflow, providing a robust set
+              of tools that accelerate development without compromising on
+              quality.
             </p>
           </div>
           <button className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-row-reverse gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
@@ -51,13 +61,15 @@ const Documentation = () => {
             </p>
           </button>
         </div>
-        <div className="transition-all bg-white/60 lg:hover:bg-blue-400/60 ring-1 ring-blue-600 lg:ring-black/20 hover:lg:ring-blue-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
+        <div className="transition-all bg-white/60 lg:hover:bg-blue-400/60 hover:backdrop-blur-lg ring-1 ring-blue-600 lg:ring-black/20 hover:lg:ring-blue-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
           <div className="flex flex-col items-start gap-4">
             <p className="text-black text-lg font-semibold tracking-tight w-full text-start mt-0">
               Getting Started
             </p>
             <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-0">
-              &undefined
+              Welcome aboard the XEV journey! Whether you're a seasoned
+              developer or a curious beginner, diving into the world of XEV is
+              your gateway to efficient and creative React.js web development.
             </p>
           </div>
           <button className="transition-all bg-blue-600/20 hover:bg-blue-600/40 ring-1 ring-blue-600 flex flex-row-reverse gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
@@ -67,13 +79,17 @@ const Documentation = () => {
             </p>
           </button>
         </div>
-        <div className="transition-all bg-white/60 lg:hover:bg-purple-400/60 ring-1 ring-purple-600 lg:ring-black/20 hover:lg:ring-purple-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
+        <div className="transition-all bg-white/60 lg:hover:bg-purple-400/60 hover:backdrop-blur-lg ring-1 ring-purple-600 lg:ring-black/20 hover:lg:ring-purple-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
           <div className="flex flex-col items-start gap-4">
             <p className="text-black text-lg font-semibold tracking-tight w-full text-start mt-0">
               Knowing Specification
             </p>
             <p className="text-black/80 text-sm font-medium tracking-tight w-full text-start mt-0">
-              &undefined
+              XEV is built around the principles of component-driven
+              development. Understand the fundamentals of React.js component
+              architecture, where UI elements are modular and reusable. Leverage
+              XEV's extensive library of pre-designed components or create your
+              own to build scalable and maintainable user interfaces.
             </p>
           </div>
           <button className="transition-all bg-purple-600/20 hover:bg-purple-600/40 ring-1 ring-purple-600 flex flex-row-reverse gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
@@ -91,9 +107,11 @@ const Documentation = () => {
             <Image src={ArrowRightUp} width="20" height="20" />
           </div>
           <p className="text-black/80 text-lg font-medium tracking-tight w-full text-start mt-4 lg:mt-8">
-            Welcome to our &rsquo;Documentations&rsquo; hub – your go-to
-            resource for unlocking the full potential of your landing page
-            creation journey.
+            Ready to unlock the full potential of XEV? Dive into the
+            comprehensive documentation to illuminate your path to mastery.
+            Discover in-depth insights, step-by-step guides, and a wealth of
+            resources that will empower you to harness every facet of XEV&rsquo;s
+            capabilities.
           </p>
         </div>
       </div>

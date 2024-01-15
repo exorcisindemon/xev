@@ -34,10 +34,13 @@ const Navbar = () => {
       <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
         <Link
           href="/"
-          className="transition-all bg-transparent lg:hover:bg-black/20 lg:hover:ring-1 lg:hover:ring-black/40 lg:px-4 lg:py-2 lg:rounded-lg flex flex-row items-center justify-between w-auto gap-4 lg:gap-2"
+          className="transition-all bg-transparent lg:hover:bg-black/20 lg:hover:ring-1 lg:hover:ring-black/40 lg:px-4 lg:py-2 lg:rounded-lg flex flex-col lg:flex-row items-center justify-between w-auto gap-0 lg:gap-2"
         >
           <p className="text-black text-base font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
             XEV
+          </p>
+          <p className="text-black/80 text-xs lg:text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+            Mathilda Version
           </p>
         </Link>
         <button
