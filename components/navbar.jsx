@@ -35,7 +35,7 @@ const Navbar = () => {
           href="/"
           className="transition-all bg-transparent lg:hover:bg-black/20 lg:hover:ring-1 lg:hover:ring-black/40 lg:px-4 lg:py-2 lg:rounded-lg flex flex-row items-center justify-between w-auto gap-4 lg:gap-2"
         >
-          <p className="text-black text-sm font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+          <p className="text-black text-base font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
             XEV
           </p>
         </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
       </div>
       {expandNavbar && (
         <div className="hidden lg:flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
-          <label className="text-black text-sm font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+          <label className="text-black text-base font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
             |
           </label>
         </div>
@@ -80,7 +80,7 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Documentation
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
@@ -107,7 +107,7 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Pricing
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
@@ -133,7 +133,7 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Projects
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
@@ -159,7 +159,7 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Contact
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
