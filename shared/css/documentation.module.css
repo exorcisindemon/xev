@@ -8,6 +8,6 @@
 
 @media (width <= 768px) {
   .documentation {
-    background-position: left center !important;
+    background-position: center !important;
   }
 }
