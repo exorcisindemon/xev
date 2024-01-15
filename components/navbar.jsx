@@ -64,7 +64,7 @@ const Navbar = () => {
       {expandNavbar && (
         <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
           <Link
-            href="/"
+            href="#documentation"
             className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image

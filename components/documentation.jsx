@@ -11,7 +11,7 @@ const {
 
 const Documentation = () => {
   return (
-    <main
+    <section id="documentation"
       className={`${css.documentation} flex flex-col w-full h-auto lg:h-[720px] items-center justify-center gap-8 lg:gap-16 px-4 py-16 lg:p-16`}
     >
       <div className="flex flex-col w-full lg:w-[720px]">
@@ -90,7 +90,7 @@ const Documentation = () => {
           </p>
         </div>
       </div>
-    </main>
+    </section>
   );
 };
 
