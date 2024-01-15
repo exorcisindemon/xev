@@ -16,7 +16,7 @@ const Hero = () => {
         </p>
       </button>
       <h1 className="text-black text-4xl font-semibold tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-16">
-        Introducing, <span className="text-blue-600">XEV</span> – Your Web &
+        Introducing, <span className="text-blue-600">XEV</span> – Your React.js Web &
         Components Crafter!
       </h1>
       <h2 className="text-black/80 text-lg font-medium tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-8">

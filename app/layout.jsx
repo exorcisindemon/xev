@@ -6,7 +6,7 @@ const { default: Navbar } = require("../components/navbar");
 const font = DM_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Introducing, XEV – Your Web & Components Crafter!",
+  title: "Introducing, XEV – Your React.js Web & Components Crafter!",
   description: "@exorcisindemon",
 };
 
