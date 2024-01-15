@@ -43,7 +43,6 @@ const Navbar = () => {
           className="transition-all bg-black/10 ring-1 ring-black/40 flex flex-row items-center justify-center lg:hidden w-auto gap-2 p-2 rounded-lg"
           onClick={handlerNavbar}
         >
-          
           <Image
             className={`${
               expandNavbar ? "rotate-180" : "rotate-0"
@@ -62,7 +61,7 @@ const Navbar = () => {
         </div>
       )}
       {expandNavbar && (
-        <div className="flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
+        <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-start lg:items-center w-full lg:w-auto">
           <Link
             href="#documentation"
             className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
@@ -84,9 +83,62 @@ const Navbar = () => {
                 Documentation
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
-                Welcome to our &rsquo;Documentations&rsquo; hub – your go-to
-                resource for unlocking the full potential of your landing page
-                creation journey.
+                Explore our documentation, and let&rsquo;s empower your mastery
+                of our platform or product. Clarity awaits – welcome to a
+                resourceful journey of discovery and expertise!
+              </p>
+            </div>
+          </Link>
+          <Link
+            href="/"
+            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+          >
+            <Image
+              className="hidden lg:flex"
+              src={FileList}
+              width="16"
+              height="16"
+            />
+            <Image
+              className="flex lg:hidden"
+              src={FileList}
+              width="20"
+              height="20"
+            />
+            <div className="flex flex-col gap-0 w-auto">
+              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+                Layouts
+              </p>
+              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
+                Built with the power of React.js, seamlessly combines
+                functionality with a sleek and responsive design, offering a
+                user-friendly exploration of content.
+              </p>
+            </div>
+          </Link>
+          <Link
+            href="/"
+            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
+          >
+            <Image
+              className="hidden lg:flex"
+              src={FileList}
+              width="16"
+              height="16"
+            />
+            <Image
+              className="flex lg:hidden"
+              src={FileList}
+              width="20"
+              height="20"
+            />
+            <div className="flex flex-col gap-0 w-auto">
+              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+                Components
+              </p>
+              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
+                Dive into the showcase to find versatile and functional React.js
+                components, designed to seamlessly integrate into your projects.
               </p>
             </div>
           </Link>
@@ -108,37 +160,11 @@ const Navbar = () => {
             />
             <div className="flex flex-col gap-0 w-auto">
               <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-                Pricing
+                Pricings
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
                 Each tier is crafted to deliver maximum value. No hidden fees,
                 no surprises – just transparent and flexible pricing.
-              </p>
-            </div>
-          </Link>
-          <Link
-            href="/"
-            className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
-          >
-            <Image
-              className="hidden lg:flex"
-              src={FileList}
-              width="16"
-              height="16"
-            />
-            <Image
-              className="flex lg:hidden"
-              src={FileList}
-              width="20"
-              height="20"
-            />
-            <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-                Projects
-              </p>
-              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
-                Explore a gallery that showcases the diversity of my work, from
-                design masterpieces to impactful campaigns.
               </p>
             </div>
           </Link>

@@ -2,16 +2,23 @@ import Image from "next/image";
 import css from "../shared/css/documentation.module.css";
 
 const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
-const { default: ArrowRightGreen } = require("../shared/icons/arrow-right-line-green.svg");
-const { default: ArrowRightBlue } = require("../shared/icons/arrow-right-line-blue.svg");
-const { default: ArrowRightPurple } = require("../shared/icons/arrow-right-line-purple.svg");
+const {
+  default: ArrowRightGreen,
+} = require("../shared/icons/arrow-right-line-green.svg");
+const {
+  default: ArrowRightBlue,
+} = require("../shared/icons/arrow-right-line-blue.svg");
+const {
+  default: ArrowRightPurple,
+} = require("../shared/icons/arrow-right-line-purple.svg");
 const {
   default: ArrowRightUp,
 } = require("../shared/icons/arrow-right-up-line.svg");
 
 const Documentation = () => {
   return (
-    <section id="documentation"
+    <section
+      id="documentation"
       className={`${css.documentation} flex flex-col w-full h-auto lg:h-[720px] items-center justify-center gap-8 lg:gap-16 px-4 py-16 lg:p-16`}
     >
       <div className="flex flex-col w-full lg:w-[720px]">
@@ -22,9 +29,9 @@ const Documentation = () => {
           </p>
         </div>
         <p className="text-black/80 text-lg font-medium tracking-tight w-full text-start lg:text-center mt-4 lg:mt-8">
-          Welcome to our &rsquo;Documentations&rsquo; hub – your go-to resource
-          for unlocking the full potential of your landing page creation
-          journey.
+          Explore our documentation, and let&rsquo;s empower your mastery of our
+          platform or product. Clarity awaits – welcome to a resourceful journey
+          of discovery and expertise!
         </p>
       </div>
       <div className="flex flex-col lg:grid lg:grid-cols-4 gap-8 lg:gap-16 items-center w-full h-full">
