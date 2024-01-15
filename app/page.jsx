@@ -7,7 +7,7 @@ const { default: Documentation } = require("../components/documentation");
 export default function App() {
   return (
     <ScreenLayout>
-      <div className="relative top-auto lg:top-[76px]">
+      <div className="relative top-auto lg:top-[68px]">
         <Header />
         <Documentation />
       </div>
