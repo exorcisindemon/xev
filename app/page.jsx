@@ -10,8 +10,6 @@ export default function App() {
       <div className="relative top-auto lg:top-[72px]">
         <Header />
         <Documentation />
-        <Documentation />
-        <Documentation />
       </div>
     </ScreenLayout>
   );
