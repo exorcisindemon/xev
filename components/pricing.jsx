@@ -36,7 +36,7 @@ const Pricing = () => {
           <div className="flex flex-col items-start gap-2">
             <button className="transition-all flex flex-row gap-2 hover:gap-4 items-center">
               <p className="text-stone-800 text-lg font-semibold tracking-tight w-full text-start mt-0">
-                Standard
+                Separate
               </p>
               <Image src={ArrowRightStone} width="20" height="20" />
             </button>
