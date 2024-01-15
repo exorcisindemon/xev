@@ -13,6 +13,9 @@ export default function App() {
         <section id="documentation">
           <Documentation />
         </section>
+        <section id="pricing">
+          <Pricing />
+        </section>
       </div>
     </ScreenLayout>
   );

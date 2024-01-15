@@ -20,7 +20,7 @@ const {
 const Documentation = () => {
   return (
     <main
-      className={`${css.documentation} flex flex-col w-full h-auto lg:h-[720px] items-center justify-center gap-8 lg:gap-16 px-8 py-16 lg:p-16`}
+      className={`${css.documentation} flex flex-col w-full h-auto items-center justify-center gap-8 lg:gap-16 px-8 py-16 lg:p-16`}
     >
       <div className="flex flex-col w-full lg:w-[720px]">
         <div className="flex flex-row gap-2 lg:gap-4 items-center justify-start lg:justify-center w-full">
@@ -57,7 +57,7 @@ const Documentation = () => {
           </div>
           <button className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-row-reverse gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
             <Image src={ArrowRightGreen} width="16" height="16" />
-            <p className="text-green-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
+            <p className="text-green-200 text-sm font-medium tracking-tight w-full text-start">
               Read <span className="font-bold">Introduction</span>
             </p>
           </button>
@@ -75,7 +75,7 @@ const Documentation = () => {
           </div>
           <button className="transition-all bg-blue-600/20 hover:bg-blue-600/40 ring-1 ring-blue-600 flex flex-row-reverse gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
             <Image src={ArrowRightBlue} width="16" height="16" />
-            <p className="text-blue-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
+            <p className="text-blue-200 text-sm font-medium tracking-tight w-full text-start">
               Read <span className="font-bold">Getting Started</span>
             </p>
           </button>
@@ -95,7 +95,7 @@ const Documentation = () => {
           </div>
           <button className="transition-all bg-purple-600/20 hover:bg-purple-600/40 ring-1 ring-purple-600 flex flex-row-reverse gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
             <Image src={ArrowRightPurple} width="16" height="16" />
-            <p className="text-purple-200 text-sm font-medium tracking-tight w-full text-start lg:text-center">
+            <p className="text-purple-200 text-sm font-medium tracking-tight w-full text-start">
               Read <span className="font-bold">Knowing Specification</span>
             </p>
           </button>
