@@ -56,7 +56,7 @@ const Navbar = () => {
       </div>
       {expandNavbar && (
         <div className="hidden lg:flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
-          <label className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+          <label className="text-black text-sm font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
             |
           </label>
         </div>
