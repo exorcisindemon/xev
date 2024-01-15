@@ -32,7 +32,8 @@ const Hero = () => {
         Meet XEV, your ultimate companion in the world of React.js web
         development. Whether you&rsquo;re a seasoned developer or just diving
         into the realm of front-end design, XEV is here to simplify and amplify
-        your creative journey.
+        your creative journey. We're excited to share that the components on
+        this website are meticulously crafted using Tailwind CSS.
       </h2>
     </header>
   );
