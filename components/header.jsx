@@ -1,9 +1,7 @@
 import Image from "next/image";
-import css from "../shared/css/header.module.css"
+import css from "../shared/css/header.module.css";
 
-const {
-  default: Command,
-} = require("../shared/icons/command-line.svg");
+const { default: Command } = require("../shared/icons/command-line.svg");
 
 const Hero = () => {
   return (
@@ -17,15 +15,15 @@ const Hero = () => {
           <span className="font-bold">03d30f</span>
         </p>
       </button>
-      <h1 className="text-black text-4xl font-semibold tracking-tight w-full lg:w-[480px] text-start lg:text-center mt-16">
-        Introducing, <span className="text-blue-600">XEV</span> – Your Easy
-        Landing Page Crafter!
+      <h1 className="text-black text-4xl font-semibold tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-16">
+        Introducing, <span className="text-blue-600">XEV</span> – Your Web &
+        Components Crafter!
       </h1>
       <h2 className="text-black/80 text-lg font-medium tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-8">
         Creating a stunning landing page has never been this simple. At XEV,
-        we&rsquo;re all about making things easy for you. Whether you&rsquo;re a business
-        owner, startup, or just want to showcase something awesome, XEV has got
-        your back.
+        we&rsquo;re all about making things easy for you. Whether you&rsquo;re a
+        business owner, startup, or just want to showcase something awesome, XEV
+        has got your back.
       </h2>
     </header>
   );
