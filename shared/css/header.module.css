@@ -8,6 +8,6 @@
 
 @media (width <= 768px) {
   .header {
-    background-position: right;
+    background-position: right center !important;
   }
 }
