@@ -1,7 +1,9 @@
 import Image from "next/image";
-import css from "../shared/css/documentation.module.css";
+import css from "../shared/css/landing/control.module.css";
 
-const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
+const {
+  default: BookOpenWhite,
+} = require("../shared/icons/book-open-line-white.svg");
 const {
   default: ArrowRightGreen,
 } = require("../shared/icons/arrow-right-line-green.svg");
@@ -12,18 +14,17 @@ const {
   default: ArrowRightPurple,
 } = require("../shared/icons/arrow-right-line-purple.svg");
 const {
-  default: ArrowRightUp,
-} = require("../shared/icons/arrow-right-up-line.svg");
+  default: ArrowRightUpWhite,
+} = require("../shared/icons/arrow-right-up-line-white.svg");
 
 const Pricing = () => {
   return (
-    <section
-      id="documentation"
+    <main
       className={`${css.documentation} flex flex-col w-full h-auto lg:h-[720px] items-center justify-center gap-8 lg:gap-16 px-4 py-16 lg:p-16`}
     >
       <div className="flex flex-col w-full lg:w-[720px]">
         <div className="flex flex-row gap-2 lg:gap-4 items-center justify-start lg:justify-center w-full">
-          <Image src={BookOpen} width="20" height="20" />
+          <Image src={BookOpenWhite} width="20" height="20" />
           <p className="text-black text-2xl font-semibold tracking-tight w-auto text-start lg:text-center mt-0">
             Documentation
           </p>
@@ -97,7 +98,7 @@ const Pricing = () => {
           </p>
         </div>
       </div>
-    </section>
+    </main>
   );
 };
 

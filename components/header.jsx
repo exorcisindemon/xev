@@ -1,13 +1,13 @@
 import Image from "next/image";
-import css from "../shared/css/header.module.css";
+import css from "../shared/css/landing/control.module.css"
 
 const { default: Command } = require("../shared/icons/command-line.svg");
 const { default: ThumbUp } = require("../shared/icons/thumb-up-line.svg");
 
 const Hero = () => {
   return (
-    <header
-      className={`${css.header} flex flex-col w-full h-screen lg:h-[720px] items-center justify-center p-4 lg:p-16`}
+    <main
+      className={`${css.header} flex flex-col w-full h-auto lg:h-[720px] items-center justify-center px-8 py-16 lg:p-16`}
     >
       <div className="flex flex-row flex-wrap gap-4 items-center">
         <button className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-row gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
@@ -35,7 +35,7 @@ const Hero = () => {
         your creative journey. We're excited to share that the components on
         this website are meticulously crafted using Tailwind CSS.
       </h2>
-    </header>
+    </main>
   );
 };
 

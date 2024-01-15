@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const { default: ArrowDown } = require("../shared/icons/arrow-down-line.svg");
-const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
+const { default: BookOpenBlack } = require("../shared/icons/book-open-line-black.svg");
 const { default: Layout } = require("../shared/icons/layout-line.svg");
 const { default: Function } = require("../shared/icons/function-line.svg");
 const {
@@ -40,7 +40,7 @@ const Navbar = () => {
             XEV
           </p>
           <p className="text-black/80 text-xs lg:text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-            Mathilda Build
+            Mathilda Release
           </p>
         </Link>
         <button
@@ -72,13 +72,13 @@ const Navbar = () => {
           >
             <Image
               className="hidden lg:flex"
-              src={BookOpen}
+              src={BookOpenBlack}
               width="16"
               height="16"
             />
             <Image
               className="flex lg:hidden"
-              src={BookOpen}
+              src={BookOpenBlack}
               width="20"
               height="20"
             />
@@ -147,7 +147,7 @@ const Navbar = () => {
             </div>
           </Link>
           <Link
-            href="/"
+            href="#pricing"
             className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
           >
             <Image
