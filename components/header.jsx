@@ -18,7 +18,7 @@ const Hero = () => {
         </p>
       </button>
       <h1 className="text-black text-4xl font-semibold tracking-tight w-full lg:w-[480px] text-start lg:text-center mt-16">
-        Introducing, <span className="text-blue-400">XEV</span> – Your Easy
+        Introducing, <span className="text-blue-600">XEV</span> – Your Easy
         Landing Page Crafter!
       </h1>
       <h2 className="text-black/80 text-lg font-medium tracking-tight w-full lg:w-[720px] text-start lg:text-center mt-8">
