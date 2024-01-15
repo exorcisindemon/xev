@@ -160,7 +160,7 @@ const Navbar = () => {
             />
             <div className="flex flex-col gap-0 w-auto">
               <p className="text-black text-base font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-                Pricings
+                Pricing
               </p>
               <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
                 Each tier is crafted to deliver maximum value. No hidden fees,
