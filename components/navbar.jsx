@@ -28,14 +28,14 @@ const Navbar = () => {
     <main
       className={`${
         expandNavbar ? "h-screen lg:h-auto" : "h-auto"
-      } bg-white flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-6`}
+      } bg-white flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-4`}
     >
       <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
         <Link
           href="/"
           className="transition-all bg-transparent lg:hover:bg-black/20 lg:hover:ring-1 lg:hover:ring-black/40 lg:px-4 lg:py-2 lg:rounded-lg flex flex-row items-center justify-between w-auto gap-4 lg:gap-2"
         >
-          <p className="text-black text-lg font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+          <p className="text-black text-sm font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
             XEV
           </p>
         </Link>
@@ -80,10 +80,10 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Documentation
               </p>
-              <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
                 Welcome to our &rsquo;Documentations&rsquo; hub – your go-to
                 resource for unlocking the full potential of your landing page
                 creation journey.
@@ -107,10 +107,10 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Pricing
               </p>
-              <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
                 Each tier is crafted to deliver maximum value. No hidden fees,
                 no surprises – just transparent and flexible pricing.
               </p>
@@ -133,10 +133,10 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Projects
               </p>
-              <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
                 Explore a gallery that showcases the diversity of my work, from
                 design masterpieces to impactful campaigns.
               </p>
@@ -159,10 +159,10 @@ const Navbar = () => {
               height="20"
             />
             <div className="flex flex-col gap-0 w-auto">
-              <p className="text-black text-lg font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="text-black text-sm font-semibold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
                 Contact
               </p>
-              <p className="flex lg:hidden text-black/80 text-sm font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
+              <p className="flex lg:hidden text-black/80 text-xs font-medium tracking-tight w-full lg:w-auto text-start lg:text-center mt-2">
                 Whether you have inquiries, partnership proposals, or just want
                 to say hello. The space where connections are forged.
               </p>

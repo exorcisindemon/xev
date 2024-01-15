@@ -1,5 +1,5 @@
 import Image from "next/image";
-import css from "../shared/documentation/documentation.module.css";
+import css from "../shared/css/documentation.module.css"
 
 const { default: BookOpen } = require("../shared/icons/book-open-line.svg");
 const { default: ArrowRight } = require("../shared/icons/arrow-right-line.svg");
@@ -7,7 +7,7 @@ const { default: ArrowRight } = require("../shared/icons/arrow-right-line.svg");
 const Documentation = () => {
   return (
     <main
-      className={`${css.documentation} flex flex-col lg:grid lg:grid-cols-4 w-full h-auto lg:h-[480px] items-center justify-center gap-8 lg:gap-16 p-6 lg:p-16`}
+      className={`${css.documentation} flex flex-col lg:grid lg:grid-cols-4 w-full h-auto lg:h-[480px] items-center justify-center gap-8 lg:gap-16 p-4 lg:p-16`}
     >
       <div className="flex flex-col w-full">
         <div className="flex flex-row gap-2 lg:gap-4 items-center w-full">
