@@ -9,7 +9,12 @@ export const useLikeContext = () => {
 };
 
 export const LikeProvider = ({ children }) => {
-  const storedLikeCount = localStorage.getItem("likeCount");
+  const isLocalStorageAvailable =
+    typeof window !== "undefined" && window.localStorage;
+
+  const storedLikeCount = isLocalStorageAvailable
+    ? localStorage.getItem("likeCount")
+    : null;
   console.log("Stored Like Count:", storedLikeCount);
 
   const initialLikeCount = parseInt(storedLikeCount, 10) || 0;
@@ -26,8 +31,10 @@ export const LikeProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    localStorage.setItem("likeCount", likeCount.toString());
-  }, [likeCount]);
+    if (isLocalStorageAvailable) {
+      localStorage.setItem("likeCount", likeCount.toString());
+    }
+  }, [likeCount, isLocalStorageAvailable]);
 
   return (
     <LikeContext.Provider value={{ likeCount, userLiked, likeHandler }}>
