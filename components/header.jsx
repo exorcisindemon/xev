@@ -13,7 +13,7 @@ const Hero = () => {
         <button className="transition-all bg-green-600/20 hover:bg-green-600/40 ring-1 ring-green-600 flex flex-row gap-2 items-center w-fit px-8 py-2 mt-0 rounded-full">
           <Image src={Command} width="16" height="16" />
           <p className="text-green-800 text-sm font-medium tracking-tight w-full text-start lg:text-center">
-            Discover the latest changes! -{" "}
+            Mathilda Release is under development -{" "}
             <span className="font-bold">03d30f</span>
           </p>
         </button>
