@@ -20,7 +20,7 @@ const Hero = () => {
         <button className="transition-all bg-amber-600/20 hover:bg-amber-600/40 ring-1 ring-amber-600 flex flex-row gap-2 items-center w-fit px-4 py-2 mt-0 rounded-full">
           <Image src={ThumbUp} width="16" height="16" />
           <p className="text-amber-800 text-sm font-medium tracking-tight w-full text-start lg:text-center">
-            12
+            18
           </p>
         </button>
       </div>

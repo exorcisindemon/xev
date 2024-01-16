@@ -5,7 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const { default: ArrowDown } = require("../shared/icons/arrow-down-line.svg");
-const { default: BookOpenBlack } = require("../shared/icons/book-open-line-black.svg");
+const {
+  default: BookOpenBlack,
+} = require("../shared/icons/book-open-line-black.svg");
 const { default: Layout } = require("../shared/icons/layout-line.svg");
 const { default: Function } = require("../shared/icons/function-line.svg");
 const {
@@ -29,9 +31,9 @@ const Navbar = () => {
     <main
       className={`${
         expandNavbar ? "h-screen lg:h-auto" : "h-auto"
-      } bg-white flex flex-col lg:flex-row gap-4 items-center justify-between lg:justify-center w-full p-4`}
+      } bg-white flex flex-col lg:flex-row gap-4 items-center justify-between w-full p-4`}
     >
-      <div className="flex flex-row gap-4 items-center justify-between w-full lg:w-auto">
+      <div className="flex flex-row gap-0 items-center justify-between w-full lg:w-auto">
         <Link
           href="/"
           className="transition-all bg-transparent lg:hover:bg-black/20 lg:hover:ring-1 lg:hover:ring-black/40 lg:px-4 lg:py-2 lg:rounded-lg flex flex-col lg:flex-row items-center justify-between w-auto gap-0 lg:gap-2"
@@ -58,14 +60,7 @@ const Navbar = () => {
         </button>
       </div>
       {expandNavbar && (
-        <div className="hidden lg:flex flex-col lg:flex-row gap-4 items-start lg:items-center w-full lg:w-auto">
-          <label className="text-black text-base font-bold tracking-tight w-full lg:w-auto text-start lg:text-center mt-0">
-            |
-          </label>
-        </div>
-      )}
-      {expandNavbar && (
-        <div className="flex flex-col lg:flex-row gap-0 lg:gap-4 items-start lg:items-center w-full lg:w-auto">
+        <div className="flex flex-col lg:flex-row gap-0 items-start lg:items-center w-full lg:w-auto">
           <Link
             href="#documentation"
             className="transition-all bg-transparent hover:bg-black/20 hover:ring-1 hover:ring-black/40 p-4 lg:px-4 lg:py-2 rounded-lg flex flex-row-reverse lg:flex-row items-center justify-between w-full lg:w-auto gap-2"
