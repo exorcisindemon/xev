@@ -36,7 +36,7 @@ const Documentation = () => {
         </p>
       </div>
       <div className="flex flex-col lg:grid lg:grid-cols-4 gap-8 lg:gap-16 items-center w-full h-full">
-        <div className="transition-all bg-green-400/60 lg:bg-black/60 lg:hover:bg-green-400/60 hover:backdrop-blur-lg ring-1 ring-green-600 lg:ring-black/20 hover:lg:ring-green-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
+        <div className="transition-all bg-green-400/60 lg:bg-black/60 lg:hover:bg-green-400/60 hover:backdrop-blur-lg ring-1 ring-green-600 lg:ring-black/20 hover:lg:ring-green-600 flex flex-col w-full h-full justify-between gap-16 p-8 rounded-lg">
           <div className="flex flex-col items-start gap-4">
             <p className="text-white text-lg font-semibold tracking-tight w-full text-start mt-0">
               Introduction
@@ -62,7 +62,7 @@ const Documentation = () => {
             </p>
           </button>
         </div>
-        <div className="transition-all bg-blue-400/60 lg:bg-black/60 lg:hover:bg-blue-400/60 hover:backdrop-blur-lg ring-1 ring-blue-600 lg:ring-black/20 hover:lg:ring-blue-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
+        <div className="transition-all bg-blue-400/60 lg:bg-black/60 lg:hover:bg-blue-400/60 hover:backdrop-blur-lg ring-1 ring-blue-600 lg:ring-black/20 hover:lg:ring-blue-600 flex flex-col w-full h-full justify-between gap-16 p-8 rounded-lg">
           <div className="flex flex-col items-start gap-4">
             <p className="text-white text-lg font-semibold tracking-tight w-full text-start mt-0">
               Getting Started
@@ -80,7 +80,7 @@ const Documentation = () => {
             </p>
           </button>
         </div>
-        <div className="transition-all bg-purple-400/60 lg:bg-black/60 lg:hover:bg-purple-400/60 hover:backdrop-blur-lg ring-1 ring-purple-600 lg:ring-black/20 hover:lg:ring-purple-600 flex flex-col w-full h-full justify-between gap-16 p-4 lg:p-8 rounded-lg">
+        <div className="transition-all bg-purple-400/60 lg:bg-black/60 lg:hover:bg-purple-400/60 hover:backdrop-blur-lg ring-1 ring-purple-600 lg:ring-black/20 hover:lg:ring-purple-600 flex flex-col w-full h-full justify-between gap-16 p-8 rounded-lg">
           <div className="flex flex-col items-start gap-4">
             <p className="text-white text-lg font-semibold tracking-tight w-full text-start mt-0">
               Knowing Specification
